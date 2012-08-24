@@ -38,7 +38,7 @@
                                         </label>
                                         <imageView userInteractionEnabled="NO" tag="102" contentMode="center" id="g8E-aT-ay2">
                                             <rect key="frame" x="219" y="4" width="81" height="46"/>
-                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxY="YES"/>
                                         </imageView>
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
