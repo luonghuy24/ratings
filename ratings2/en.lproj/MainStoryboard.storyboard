@@ -15,7 +15,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PlayerCell" rowHeight="55" id="UkQ-jj-DM7">
+                            <tableViewCell contentMode="scaleToFill" selectionStyle="blue" accessoryType="disclosureIndicator" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="PlayerCell" rowHeight="55" id="UkQ-jj-DM7" customClass="PlayerCell">
                                 <rect key="frame" x="0.0" y="22" width="320" height="55"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
@@ -43,6 +43,11 @@
                                     </subviews>
                                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 </view>
+                                <connections>
+                                    <outlet property="gameLabel" destination="pIK-z7-LYe" id="DYM-oO-uKL"/>
+                                    <outlet property="nameLabel" destination="CRk-aG-toj" id="0Tv-Ge-7Sm"/>
+                                    <outlet property="ratingImageView" destination="g8E-aT-ay2" id="jq4-lP-CIt"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -114,6 +119,14 @@
         <image name="Players.png" width="30" height="30"/>
     </resources>
     <classes>
+        <class className="PlayerCell" superclassName="UITableViewCell">
+            <source key="sourceIdentifier" type="project" relativePath="./Classes/PlayerCell.h"/>
+            <relationships>
+                <relationship kind="outlet" name="gameLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="nameLabel" candidateClass="UILabel"/>
+                <relationship kind="outlet" name="ratingImageView" candidateClass="UIImageView"/>
+            </relationships>
+        </class>
         <class className="PlayersViewController" superclassName="UITableViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/PlayersViewController.h"/>
         </class>

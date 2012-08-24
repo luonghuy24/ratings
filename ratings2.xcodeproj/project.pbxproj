@@ -41,6 +41,7 @@
 		3D4FF04615E785570038DD4A /* Players@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D4FF02E15E785570038DD4A /* Players@2x.png */; };
 		3D4FF04915E786BA0038DD4A /* PlayersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FF04815E786BA0038DD4A /* PlayersViewController.m */; };
 		3D4FF04C15E787B60038DD4A /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FF04B15E787B60038DD4A /* Player.m */; };
+		3D4FF04F15E791F80038DD4A /* PlayerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D4FF04E15E791F80038DD4A /* PlayerCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -85,6 +86,8 @@
 		3D4FF04815E786BA0038DD4A /* PlayersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayersViewController.m; sourceTree = "<group>"; };
 		3D4FF04A15E787B60038DD4A /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
 		3D4FF04B15E787B60038DD4A /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		3D4FF04D15E791F80038DD4A /* PlayerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayerCell.h; sourceTree = "<group>"; };
+		3D4FF04E15E791F80038DD4A /* PlayerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayerCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +138,8 @@
 				3D4FF00815E7846F0038DD4A /* AppDelegate.h */,
 				3D4FF00915E7846F0038DD4A /* AppDelegate.m */,
 				3D4FF00B15E7846F0038DD4A /* MainStoryboard.storyboard */,
+				3D4FF04D15E791F80038DD4A /* PlayerCell.h */,
+				3D4FF04E15E791F80038DD4A /* PlayerCell.m */,
 				3D4FF04715E786BA0038DD4A /* PlayersViewController.h */,
 				3D4FF04A15E787B60038DD4A /* Player.h */,
 				3D4FF04B15E787B60038DD4A /* Player.m */,
@@ -281,6 +286,7 @@
 				3D4FF01015E7846F0038DD4A /* ViewController.m in Sources */,
 				3D4FF04915E786BA0038DD4A /* PlayersViewController.m in Sources */,
 				3D4FF04C15E787B60038DD4A /* Player.m in Sources */,
+				3D4FF04F15E791F80038DD4A /* PlayerCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
